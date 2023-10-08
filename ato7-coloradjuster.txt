@@ -1,0 +1,62 @@
+﻿Assignment name: Assignment 5
+TCSS 305 C: Programming Practicum, Winter 2023
+
+
+Name: Alan To
+UWNetID: ato7
+
+
+Assignment Overview:
+While this assignment was probably the smallest assignment we've had this quarter, it was one where I learned from
+a lot. With all that we had to learn and this being a whole new concept that I haven't done before in Java and it
+being a whole new side of coding, I was able to gain a lot from this assignment. Diving into GUI and learning more about
+how ActionListeners work with lambdas, anonymous inner classes, and more, in our class, this assignment purpose was
+to serve us practice on all that we learned in class and test our understanding about GUI components.
+
+
+
+Technical Impression:
+For this assignment, the first panel I did was the BlueRowPanel, as suggested on the assignment description. Going into
+it, I already knew my goal was to get all the action listeners down. However, while I did know that I should be writing
+some action listeners, I didn't really exactly remember or know how to code it because I haven't actually done it
+before. So, what I first did was do some research and get some reminders by looking at the examples given to us in
+modules and on the lectures and PowerPoint slides. Finally having a firm grip on how it's supposed to work, the
+first action listener I wrote was the enable edit button listener because I knew it's only purpose was to allow access
+to the value field. Using setEnabled, I checked to see if the button was enabled, and once it was, the value field should be editable.
+Next, I did the increase and decrease buttons action listeners. For these 2, I first set the initial blue color number.
+This is so if we press the increase or decrease button for a string or an amount out of the range 0-255, we could go back
+to what the number was previously and not go out of bounds. I also went off of what was in the value field and increased
+and decreased it by 1, along with disabling and enabling it when necessary. The next action listener I did for was for the
+value field. For this, just like the increase and decrease buttons, I got the initial blue value before I started
+anything. Getting what's written in the value field, if it was a string, we would put revert it back to what was originally
+in the value field. This is also the same case if what was in the value field was over 255 or under 0. If what was written
+in the value field was in between 0-255, then it should set the value field to what was written and set the slider value
+to that value spot. Finally, the last action listener I wrote was for the slider. For this action listener, firstly, I
+wanted the increase and decrease buttons to disable if the slider is at its max or at its minimum. Since the slider had
+values, I would set blue to that value number at the slider current position. I then set the value field to what the value
+of blue was after. Finishing everything up for the blue row panel ActionListeners, I just copied and pasted what I wrote
+into the GreenRowPanel and RedRowPanel, and changed the blue methods to red or green methods. This worked perfectly for
+me and I had no problems. Overall, this assignment was really fun for me because it was a new experience and something
+I haven't seen or done before. Also, I just enjoy working with a GUI as a whole because you can see visually how your
+code is working. It just makes coding more interesting at least for me.
+
+Unresolved problems in my submission:
+'none that I know of.'
+
+Citations and Collaborations:
+IntroToGUI.pdf
+Intro to GUI part 2.pdf
+HelloGoodbye.java
+https://www.youtube.com/watch?v=-rJdMaSgt38&ab_channel=BroCode
+https://washington.zoom.us/rec/play/xi4hp5mbu9i3STyx5LhmOGiDIC-b_MMW7cJ00FbqnfXKB5c_cvkPqzj2ckZCfSZCLXc_MgSdZ6ydarOO.0N-7LnpWC7x5cIeU
+https://washington.zoom.us/rec/play/fk-ManzEolfwQ-Tm1I_Wtow5QPtjsperksRr2YGB6-MskNnaEtPZoosXM8TeRb9VXBqrDsgkZbEHCjiE.fMoPd47nAY1wPv0N
+https://washington.zoom.us/rec/play/VJ9dUXi2r_xgxVCD62YeOYYyxpI4HFBaqa13LxP-zSUdQU-bn06m8fD6Wl9ZMwM9ZhtRAEdT2Dwnkng-.EOm7A2peRNwUcOMf
+https://docs.oracle.com/javase/tutorial/uiswing/events/actionlistener.html
+
+Extra Credit Attempted:
+'none'
+
+Questions:
+The only question I have is about Java Docing. I tried to java doc each of my lambdas action listeners,
+but when I did, it would say "Dangling Javadoc comment." My question is if it's necessary to java doc all
+the action listeners or do we only have to do it when it's an anonymous inner class.
